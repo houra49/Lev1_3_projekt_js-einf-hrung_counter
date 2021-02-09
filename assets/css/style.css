@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height:100vh;
+}
+.container{
+    margin:20% auto;
+    border: #000 solid 1px;
+    width: 15vw;
+    height: 37vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+h1,.counter-display{
+    text-align: center;
+}
+#buttons{
+    display:block;
+    padding-left: 8%;
+}
+#buttons button{
+    height:5%;
+    width:30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#buttons button:hover{
+    background-color:#33ccff;
+}
